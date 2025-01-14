@@ -1,0 +1,129 @@
+﻿<br />
+<div class="container row p-0 m-0">
+	<div class="col-6">
+		<h2 class="text-info">Book List</h2>
+	</div>
+	<div class="col-3 offset-3">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-action="Upsert" asp-controller="Books" class="btn btn-info form-control text-white">
+                Add New Book
+            </a>
+        }
+        else
+        {
+            <a class="btn btn-info form-control text-white" onclick="UnAuthorized('add a new')">
+                Add New Book
+            </a>
+        }
+	</div>
+	<div class="col-12 border p-3">
+		<table id="DT_load" class="table table-striped table-bordered" style="width:100%">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Author</th>
+					<th>Price</th>
+					<th></th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+
+@section Scripts{
+<script>
+            var dataTable;
+
+        $(function () {
+            loadDataTable();
+        });
+
+        function loadDataTable() {
+            var loggedIn = @User.Identity.IsAuthenticated.ToString().ToLower();
+
+            dataTable = $('#DT_load').DataTable({
+                "ajax": {
+                    "url": "/books/getall/",
+                    "type": "GET",
+                    "datatype": "json"
+                },
+                "columns": [
+                    { "data": "title", "width": "20%" },
+                    { "data": "author", "width": "20%" },
+                    { "data": "price", "width": "20%" },
+                    {
+                        "data": "id",
+                        "render": function (data) {
+                            if (loggedIn) {
+                                return `<div class="text-center">
+                                <a href="/Books/Upsert?id=${data}" class='btn btn-success text-white' style='cursor:pointer; width:70px;'>
+                                    Edit
+                                </a>
+                                &nbsp;
+                                <a class='btn btn-danger text-white' style='cursor:pointer; width:70px;'
+                                    onclick=Delete('/books/Delete?id='+${data})>
+                                    Delete
+                                </a>
+                                </div>`;
+                            }
+                            else {
+                                return `<div class="text-center">
+                                <a class='btn btn-success text-white' style='cursor:pointer; width:70px;' onclick=UnAuthorized('edit')>
+                                    Edit
+                                </a>
+                                &nbsp;
+                                <a class='btn btn-danger text-white' style='cursor:pointer; width:70px;'
+                                    onclick=UnAuthorized('delete')>
+                                    Delete
+                                </a>
+                                </div>`;
+                            }
+                            
+                        }, "width": "40%"
+                    }
+                ],
+                "language": {
+                    "emptyTable": "no data found"
+                },
+                "width": "100%"
+            });
+        }
+
+        function UnAuthorized(action) {
+            action = action != 'add a new' ? action + ' a' : action;
+            swal({
+                title: "Un-Authorized Request",
+                text: `You must be logged in to ${action} book.`,
+                icon: "warning",
+                showConfirmButton: "true"
+            });
+        }
+
+        function Delete(url) {
+            swal({
+                title: "Are you sure?",
+                text: "Once deleted, you will not be able to recover",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true
+            }).then((willDelete) => {
+                if (willDelete) {
+                    $.ajax({
+                        type: "DELETE",
+                        url: url,
+                        success: function (data) {
+                            if (data.success) {
+                                toastr.success(data.message);
+                                dataTable.ajax.reload();
+                            }
+                            else {
+                                toastr.error(data.message);
+                            }
+                        }
+                    });
+                }
+            });
+        }
+</script>
+}
