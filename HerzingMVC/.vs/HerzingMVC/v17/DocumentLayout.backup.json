@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|c:\\users\\adesr\\source\\repos\\herzingmvc\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|c:\\users\\adesr\\source\\repos\\herzingmvc\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|c:\\users\\adesr\\source\\repos\\herzingmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|c:\\users\\adesr\\source\\repos\\herzingmvc\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|solutionrelative:loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|c:\\users\\adesr\\source\\repos\\herzingmvc\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|c:\\users\\adesr\\source\\repos\\herzingmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|c:\\users\\adesr\\source\\repos\\herzingmvc\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|c:\\users\\adesr\\source\\repos\\herzingmvc\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|c:\\users\\adesr\\source\\repos\\herzingmvc\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B600C74-7332-4A4B-A74F-AA97D4C1552F}|HerzingMVC.csproj|c:\\users\\adesr\\source\\repos\\herzingmvc\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,11 +50,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T13:58:49.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:37:34.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\LoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "LoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\LoggingMiddleware.cs",
+              "RelativeToolTip": "LoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:26:18.898Z"
             },
             {
               "$type": "Document",
@@ -58,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -70,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -82,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Views\\Books\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Books\\Index.cshtml",
@@ -90,37 +138,36 @@
               "RelativeToolTip": "Views\\Books\\Index.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAGEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T17:09:39.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T17:09:39.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAcwFcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T15:44:32.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T15:44:32.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAqwIIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAQwH0AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T19:06:12.295Z"
+              "WhenOpened": "2025-01-13T19:06:12.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "bookList.js",
               "DocumentMoniker": "C:\\Users\\adesr\\source\\repos\\HerzingMVC\\wwwroot\\js\\bookList.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\bookList.js",

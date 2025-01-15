@@ -124,7 +124,6 @@ namespace HerzingMVC.Areas.Identity.Pages.Account
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                    code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
 
                     await _userManager.ConfirmEmailAsync(user, code); // Confirm Email right away
 

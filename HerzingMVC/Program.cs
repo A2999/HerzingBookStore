@@ -10,6 +10,8 @@ namespace HerzingMVC
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Logging.AddConsole();
+
             // Add services to the container.
             builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
@@ -23,6 +25,8 @@ namespace HerzingMVC
     .AddEntityFrameworkStores<IdentityContext>();
 
             var app = builder.Build();
+
+            //app.UseLoggingMiddleware();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

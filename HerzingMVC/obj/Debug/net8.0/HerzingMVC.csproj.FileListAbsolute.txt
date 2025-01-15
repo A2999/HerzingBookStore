@@ -574,3 +574,4 @@ C:\Users\adesr\source\repos\HerzingMVC\bin\Debug\net8.0\ru\Microsoft.CodeAnalysi
 C:\Users\adesr\source\repos\HerzingMVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\adesr\source\repos\HerzingMVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\adesr\source\repos\HerzingMVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\adesr\source\repos\HerzingMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
